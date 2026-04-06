@@ -38,7 +38,7 @@ Scu选课脚本
 
 配置好 `config.txt` 后，在该目录下，控制台运行指令 `python main.py` 即可运行。当然也可以用 `pycharm` 等编辑器打开运行。
 >  新版本增加了AI识别验证码，更新了登录系统加密破解，并修改代码优化了效率（可能吧，没量化精确测过），使用 AI 辅助编写。
->  python 环境建议自行安装，需要所用 AI 的 python API 包，对应 AI 官网下应有教程，不复杂。可能需要自己略微修改 `func.py` 中的 `recognize_captcha_by_glm` 函数已适应不同AI。
+>  python 环境建议自行安装，需要所用 AI 的 python API 包，对应 AI 官网下应有教程，不复杂。可能需要自己略微修改 `func.py` 中的 `recognize_captcha_by_glm` 函数以适应不同AI。
 >  如果存在默认环境没有的包自行`pip`下载即可。
 >  `config.py` 中 `selectcourse_xueqi` 变量可能得根据具体时期修改，但不知道格式和是否实际产生影响。
 
